@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="counter.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="top-section">
+            <div id="heading">
+                <p>Enter a value between 1 and 99999 </p>
+            </div>
+            <div id="input">
+                <input type="number" id = "number" value = "0" min="0">
+                <button id="start" onclick="startCounter()">Start Counter</button>
+            </div>
+        </div>
+
+        <div id="bottom-section">
+
+            <div  class = "count">
+                
+                <div id="ten-thousands" class="count-container">
+                    <p class="current">0</p>
+                    <p class="next"></p>
+                </div>
+
+                <div id="thousands" class="count-container">
+                    <p class="current">0</p>
+                    <p class="next"></p>
+                </div>
+
+                <div id="hundreds" class="count-container">
+                    <p class="current">0</p>
+                    <p class="next"></p>
+                </div>
+
+                <div id="tens" class="count-container">
+                    <p class="current">0</p>
+                    <p class="next"></p>
+                </div>
+
+                <div id="ones" class="count-container">
+                    <p class="current">0</p>
+                    <p class="next"></p>
+                </div>
+
+                
+                
+                
+                
+                
+                
+            </div>
+
+            
+
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
